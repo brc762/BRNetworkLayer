@@ -1,13 +1,8 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10'
 
 target 'BRNetworkLayer_Example' do
   pod 'BRNetworkLayer', :path => '../'
-
-  target 'BRNetworkLayer_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

@@ -1,16 +1,23 @@
 PODS:
-  - BRNetworkLayer (0.1.0)
+  - Alamofire (4.9.1)
+  - BRNetworkLayer (0.0.1):
+    - Alamofire (~> 4.9.1)
 
 DEPENDENCIES:
   - BRNetworkLayer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   BRNetworkLayer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRNetworkLayer: ded4f6c3a1d779fa179c5095bd04b06db43ff43a
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BRNetworkLayer: 22af512ec66bb9a404207a1ff861a3d08702e5d5
 
-PODFILE CHECKSUM: 83ac55d7f156f31370b0bca220562a4b4cd8af93
+PODFILE CHECKSUM: 70e3de72dfe6764ce02bda233c03d438c3677cbd
 
 COCOAPODS: 1.10.1

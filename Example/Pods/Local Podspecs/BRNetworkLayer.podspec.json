@@ -1,8 +1,8 @@
 {
   "name": "BRNetworkLayer",
-  "version": "0.1.0",
-  "summary": "A short description of BRNetworkLayer.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "BRNetworkLayer",
+  "description": "BRNetworkLayer contém uma estrutura para ser utilizada como camada de serviço para qualquer projeto.",
   "homepage": "https://github.com/brc762/BRNetworkLayer",
   "license": {
     "type": "MIT",
@@ -13,10 +13,19 @@
   },
   "source": {
     "git": "https://github.com/brc762/BRNetworkLayer.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
+  "source_files": "BRNetworkLayer/**/*.{swift}",
+  "static_framework": true,
+  "public_header_files": "Pod/Classes/**/*.h",
   "platforms": {
-    "ios": "9.0"
+    "ios": "10"
   },
-  "source_files": "BRNetworkLayer/Classes/**/*"
+  "swift_versions": "5",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9.1"
+    ]
+  },
+  "swift_version": "5"
 }
