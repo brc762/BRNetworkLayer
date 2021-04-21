@@ -1,0 +1,22 @@
+{
+  "name": "BRNetworkLayer",
+  "version": "0.1.0",
+  "summary": "A short description of BRNetworkLayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/brc762/BRNetworkLayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brc762": "brunoraphaelcastilho@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/brc762/BRNetworkLayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BRNetworkLayer/Classes/**/*"
+}

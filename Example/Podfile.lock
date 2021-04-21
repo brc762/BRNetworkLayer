@@ -1,0 +1,16 @@
+PODS:
+  - BRNetworkLayer (0.1.0)
+
+DEPENDENCIES:
+  - BRNetworkLayer (from `../`)
+
+EXTERNAL SOURCES:
+  BRNetworkLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRNetworkLayer: ded4f6c3a1d779fa179c5095bd04b06db43ff43a
+
+PODFILE CHECKSUM: 83ac55d7f156f31370b0bca220562a4b4cd8af93
+
+COCOAPODS: 1.10.1
