@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRNetworkLayer'
-  s.version          = '0.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'BRNetworkLayer'
   s.description      = 'BRNetworkLayer contém uma estrutura para ser utilizada como camada de serviço para qualquer projeto.'
 
