@@ -15,7 +15,7 @@
     "git": "https://github.com/brc762/BRNetworkLayer.git",
     "tag": "0.0.1"
   },
-  "source_files": "BRNetworkLayer/**/*.{swift}",
+  "source_files": "BRNetworkLayer/**/*",
   "static_framework": true,
   "public_header_files": "Pod/Classes/**/*.h",
   "platforms": {

@@ -10,15 +10,11 @@ Pod::Spec.new do |s|
   s.author           = { 'brc762' => 'brunoraphaelcastilho@gmail.com' }
   s.source           = { :git => 'https://github.com/brc762/BRNetworkLayer.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.source_files = "BRNetworkLayer/**/*"
+  s.static_framework = true
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.ios.deployment_target = '10'
+  s.swift_version = "5"
+  s.dependency 'Alamofire', '~> 4.9.1'
 
-  s.source_files = 'BRNetworkLayer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BRNetworkLayer' => ['BRNetworkLayer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

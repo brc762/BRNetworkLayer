@@ -12,10 +12,11 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		B617DBEA9E8F2BDA69DF9299 /* Pods_BRNetworkLayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0DBACF88C3CFB20CE2FBD9 /* Pods_BRNetworkLayer_Example.framework */; };
+		C044A86D833D79FF30472BD7 /* Pods_BRNetworkLayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B5EACDA9EF937918FD1AAB /* Pods_BRNetworkLayer_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CD82D4CF36610D11FB86AD5 /* Pods-BRNetworkLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRNetworkLayer_Example.release.xcconfig"; path = "Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BRNetworkLayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRNetworkLayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -24,11 +25,10 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62E0E1756D2F945BA8E3B825 /* BRNetworkLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BRNetworkLayer.podspec; path = ../BRNetworkLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E231611AA8DA9A5ED6EC0F4 /* Pods-BRNetworkLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRNetworkLayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		713ED8EC9F6A10A6A2C97D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73B5EACDA9EF937918FD1AAB /* Pods_BRNetworkLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRNetworkLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		820A121115734BD492DC9651 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8C2EDC124DA297CAD47BD05A /* Pods-BRNetworkLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRNetworkLayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D704184E88865FDF5676404 /* Pods-BRNetworkLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BRNetworkLayer_Example.release.xcconfig"; path = "Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB0DBACF88C3CFB20CE2FBD9 /* Pods_BRNetworkLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BRNetworkLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617DBEA9E8F2BDA69DF9299 /* Pods_BRNetworkLayer_Example.framework in Frameworks */,
+				C044A86D833D79FF30472BD7 /* Pods_BRNetworkLayer_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 				607FACD21AFB9204008FA782 /* Example for BRNetworkLayer */,
 				607FACD11AFB9204008FA782 /* Products */,
 				99CF99785808ECC82BAA53AC /* Pods */,
-				E1C5F486A179CD02D8FC06E3 /* Frameworks */,
+				775734BCB26EB07781371FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,21 +94,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		775734BCB26EB07781371FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73B5EACDA9EF937918FD1AAB /* Pods_BRNetworkLayer_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99CF99785808ECC82BAA53AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C2EDC124DA297CAD47BD05A /* Pods-BRNetworkLayer_Example.debug.xcconfig */,
-				9D704184E88865FDF5676404 /* Pods-BRNetworkLayer_Example.release.xcconfig */,
+				6E231611AA8DA9A5ED6EC0F4 /* Pods-BRNetworkLayer_Example.debug.xcconfig */,
+				3CD82D4CF36610D11FB86AD5 /* Pods-BRNetworkLayer_Example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E1C5F486A179CD02D8FC06E3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FB0DBACF88C3CFB20CE2FBD9 /* Pods_BRNetworkLayer_Example.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,11 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BRNetworkLayer_Example" */;
 			buildPhases = (
-				7FECBA74FF32F9B7D6948889 /* [CP] Check Pods Manifest.lock */,
+				CE95645326DA0FA96DA6F318 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8F0C46A3FE3A247222464CD8 /* [CP] Embed Pods Frameworks */,
+				5626642E9FA3288DCEC5F523 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +182,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7FECBA74FF32F9B7D6948889 /* [CP] Check Pods Manifest.lock */ = {
+		5626642E9FA3288DCEC5F523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE95645326DA0FA96DA6F318 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,24 +220,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F0C46A3FE3A247222464CD8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BRNetworkLayer_Example/Pods-BRNetworkLayer_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,7 +357,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C2EDC124DA297CAD47BD05A /* Pods-BRNetworkLayer_Example.debug.xcconfig */;
+			baseConfigurationReference = 6E231611AA8DA9A5ED6EC0F4 /* Pods-BRNetworkLayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRNetworkLayer/Info.plist;
@@ -373,7 +373,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D704184E88865FDF5676404 /* Pods-BRNetworkLayer_Example.release.xcconfig */;
+			baseConfigurationReference = 3CD82D4CF36610D11FB86AD5 /* Pods-BRNetworkLayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BRNetworkLayer/Info.plist;
